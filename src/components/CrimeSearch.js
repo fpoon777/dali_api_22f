@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
-const API_URL = "https://data.lacity.org/resource/2nrs-mtv8.json";
-const APP_TOKEN = "HeRh9jWNo87cXq1pzv8w2X0YN";
+const API_URL = 'https://data.lacity.org/resource/2nrs-mtv8.json';
+const APP_TOKEN = 'HeRh9jWNo87cXq1pzv8w2X0YN';
 
 const crimeSearch = () => {
   const params = {

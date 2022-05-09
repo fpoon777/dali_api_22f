@@ -4,13 +4,16 @@ import Video from '../assets/video-content.mp4';
 
 function VideoPage() {
   return (
-    <div>
-      <video loop autoPlay>
+    <div className="background-video-container">
+      <video
+        className="background-video"
+        loop
+        autoPlay
+      >
         <source
           src={Video}
           type="video/mp4"
         />
-        Error: Your browser does not support the video tag.
       </video>
     </div>
   );
