@@ -23,7 +23,7 @@ The latter gathers the houses for sale listings from the API DOJO. It gathers 49
 Crime information and house listings information are displayed in the TomTom Map. Users can drag and zoom in and out of the map to have a better view of the house/crime relationship and avoid looking at houses around high crime areas. 
 
 ## Website:
-The website is hosted by github pages at: `https://fpoon777.github.io/dali_api_challenge`
+The website is hosted by github pages at: `https://dali-api-ke-lou.onrender.com/`
 
 ## Tips
 * There is a 500 requests limit per month for the real estate API.
