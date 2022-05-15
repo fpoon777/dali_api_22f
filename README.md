@@ -10,8 +10,9 @@ Three APIs are used. The first [API](https://data.lacity.org/Public-Safety/Crime
 * [TomTom](https://developer.tomtom.com/maps-sdk-web-js/documentation#Maps.Marker)
 
 ## Instructions 📋
-1. To start, call `npm install --force`. The `typewriter-effect` package needs to be force installed.
-2. To run, call `npm start`
+1. To start, call `npm install`
+2. For `node v18.0.0`, `npm install --force` because the `typewriter-effect` package needs to be force installed.
+3. To run, call `npm start`
 
 ## How it works:
 There are three APIs used. TomTom Map WebSDK API is an API provide by TomTom Map. `TomTomMap.js` calls the `crimeSearch()` function that is imported from `CrimeSearch.js` and calls the `houseSearch()` function that is imported from `HouseSearch.js`. 
