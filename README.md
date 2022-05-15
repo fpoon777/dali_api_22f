@@ -10,7 +10,7 @@ Three APIs are used. The first [API](https://data.lacity.org/Public-Safety/Crime
 * [TomTom](https://developer.tomtom.com/maps-sdk-web-js/documentation#Maps.Marker)
 
 ## Instructions 📋
-1. To start, call `npm install`
+1. To start, call `npm install --force`. The `typewriter-effect` package needs to be force installed.
 2. To run, call `npm start`
 
 ## How it works:
