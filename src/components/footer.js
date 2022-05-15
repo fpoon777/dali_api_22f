@@ -10,8 +10,8 @@ function Footer() {
             <div className="row">
               <div className="col-sm-12">
                 <p className="btn-row text-center">
-                  <a href="https://github.com/fpoon777?tab=repositories" className="btn btn-theme btn-icon-left facebook"><i className="fa fa-facebook" />GITHUB</a>
-                  <a href="http://kekekey.com/" className="btn btn-theme btn-icon-left twitter"><i className="fa fa-twitter" />KEKEHOME</a>
+                  <a href="https://github.com/fpoon777?tab=repositories" className="btn btn-theme btn-icon-left facebook">GITHUB</a>
+                  <a href="http://kekekey.com/" className="btn btn-theme btn-icon-left twitter">KEKEHOME</a>
                 </p>
                 <div className="copyright">&copy; Ke Lou - KeKeHome, Ltd</div>
               </div>

@@ -15,13 +15,10 @@ function Mission() {
                 <div className="mission-text">
                   <img className="media-object mission-avatar" src={House} alt="mission statement" />
                   <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter.typeString('Our mission is for our customers to find safe houses for their family.')
-                        .callFunction(() => {
-                          console.log('String typed out!');
-                        })
-                        .pauseFor(2500)
-                        .start();
+                    options={{
+                      strings: ['Our mission is for our customers to find safe houses for their family.'],
+                      autoStart: true,
+                      loop: true,
                     }}
                   />
                   <div className="mission-name">Ke Lou <span className="mission-position">founder at KeKeHome Real Estate</span></div>
