@@ -3,6 +3,14 @@ import React from 'react';
 import Video from '../assets/video-content.mp4';
 
 function VideoPage() {
+  function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }
+
   return (
     <div className="background-video-container">
 
@@ -20,7 +28,7 @@ function VideoPage() {
       <div className="video-mask" />
       <div className="video-content-container">
         <h1 className="video-masked-title">Find Your Homes in a Safe Place</h1>
-        <button className="video-masked-button" type="submit">Learn More</button>
+        <button className="video-masked-button" type="submit" onClick={handleScroll}>Learn More</button>
       </div>
     </div>
   );

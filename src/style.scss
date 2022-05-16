@@ -845,3 +845,24 @@ input:nth-of-type(5):checked ~ div.carousel-list {
     display: block;
 }
 
+
+@media only screen and (max-width: 990px) {
+    .header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-masked-button{
+        width: 60vw;
+        height: 5vh;
+        border-radius: 20%;
+    }
+    .video-mask{
+        display: none;
+    }
+}

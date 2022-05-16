@@ -9,10 +9,10 @@ class Nav extends Component {
   render() {
     return (
       <div>
-        <header className="header fixed">
+        <header className="header">
           <div className="header-wrapper">
             <div className="nav-container">
-              <nav className="navigation closed clearfix">
+              <nav className="navigation closed">
                 <ul className="nav sf-menu">
                   <li>
                     <NavLink to="/">
@@ -26,7 +26,7 @@ class Nav extends Component {
                 <img src={Logo} alt="Real Estate" />
               </div>
 
-              <nav className="navigation closed clearfix">
+              <nav className="navigation closed ">
                 <ul className="nav sf-menu">
                   <li>
                     <NavLink to="/map">
